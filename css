@@ -1,0 +1,124 @@
+body {
+  color: #000;
+background: url('https://i.ibb.co/NnN7kqJw/Untitled-1.png') top center repeat-x;
+  background-repeat: repeat;
+  background-size: 256px;
+  cursor: url('https://i.ibb.co/kVj9byD8/mouse.png'), auto;
+}
+/* Borland code color palette*/
+pre.prettyprint {
+    border: 1px solid #000 !important;
+    background-color: rgb(0, 0, 128);
+}
+.com {
+    color: #c0c0c0;
+}
+.kwd, .pun {
+    color: #fff;
+}
+.pln, .typ {
+    color: #ff0;
+}
+.str, .lit {
+    color: #0ff;
+}
+
+
+.post,
+input,
+textarea {
+  border: 1px solid #000!important;
+font-size: 16;
+}
+div.boardTitle{
+color: #0000ffff !important;
+ }
+div.closed{
+color: #c40700ff !important;
+text-shadow: #000 0px 0 5px;
+ }
+
+div.sideArrows {
+    color: #0000;
+}
+
+.reply:target{
+   background: #000 !important;
+   border:1px solid #dcdcfc!important;
+}
+
+#threadWatcher{
+  position: relative !important;
+  transform: rotate(45deg);
+  background: #000000ff!important;
+  color: #666677!important;
+  border: 1px solid #000!important;
+}
+.yotsuba_b_new #watchList li:first-child{
+border-top: 1px solid #00000000;
+}{
+border-top: 1px solid #00000000;
+}
+
+
+.post {
+  background: #000000ce!important;
+  color: #dcdcfc!important;
+  box-shadow: 0 0 25px #000;
+
+}
+.post.highlight {
+  background: #000000ce!important;
+  border: 1px solid #dcdcfc!important;
+  box-shadow: 0 0 25px #000;
+}
+.name,
+a {
+  color: #667!important;
+font-size: 16;
+}
+span.quote {
+    color: #01796F!important;
+}
+a.quotelink {
+    color: #F5F5DC!important;
+    text-decoration: none;
+}
+div.op{
+  background: #000000ce!important;
+  shadow: 0 0 100px #000;
+  display: table;
+  padding: 4px;
+  border-radius: 2px;
+}
+span.boardList, #navtopright {
+   color: #000 !important;
+}
+
+.img.expbtn{
+   source: url("https://litter.catbox.moe/mw9zio.png")
+}
+
+.intro span.name {
+    color: #00ff00!important;
+    font-weight: bold;
+}
+hr {
+    border-top: 1px dotted #000!important;
+    border: none;
+    height: 0;
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("https://i.ibb.co/prBx03Rb/cirnooo.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 320px;
+}
