@@ -1,9 +1,35 @@
 body {
   color: #000;
-background: url('https://i.ibb.co/NnN7kqJw/Untitled-1.png') top center repeat-x;
+background: url('https://i.ibb.co/Z1tQhWhb/d96ewp.png') top center repeat-x;
   background-repeat: repeat;
   background-size: 256px;
   cursor: url('https://i.ibb.co/kVj9byD8/mouse.png'), auto;
+}
+.boardBanner {
+  background: linear-gradient(#33144d, #7171ff);
+  margin: -5px;
+  padding: 20px;
+}
+#boardNavDesktop, #navtopright {
+}
+#boardNavDesktop {
+  width: 300px;
+  top: 0; 
+}
+.boardTitle{
+  position: absolute;
+}
+#boardNavDesktop {
+  position: absolute !important;
+  color: black;
+  
+}
+.subject{
+ color: #3527fd !important;
+  margin: auto
+}
+.burichan_new .backlink a, .yotsuba_b_new .backlink a{
+  color: #b4bec8 !important;
 }
 /* Borland code color palette*/
 pre.prettyprint {
@@ -60,7 +86,9 @@ border-top: 1px solid #00000000;
 border-top: 1px solid #00000000;
 }
 
-
+.name {
+  color: #88a6ff;
+}
 .post {
   background: #000000ce!important;
   color: #dcdcfc!important;
@@ -69,19 +97,19 @@ border-top: 1px solid #00000000;
 }
 .post.highlight {
   background: #000000ce!important;
-  border: 1px solid #dcdcfc!important;
+  border: 1px solid #95c2e1!important;
   box-shadow: 0 0 25px #000;
 }
 .name,
 a {
-  color: #667!important;
+  color: #666!important;
 font-size: 16;
 }
 span.quote {
-    color: #01796F!important;
+    color: #01796F !important;
 }
 a.quotelink {
-    color: #F5F5DC!important;
+    color: #6868ec!important;
     text-decoration: none;
 }
 div.op{
@@ -117,7 +145,7 @@ body:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("https://i.ibb.co/prBx03Rb/cirnooo.png");
+  background-image: none;
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: 320px;
