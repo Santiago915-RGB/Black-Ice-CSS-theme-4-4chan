@@ -1,8 +1,19 @@
 body {
   background: url('https://i.ibb.co/Z1tQhWhb/d96ewp.png') top center repeat-x; background-repeat: repeat;  background-size: 256px;
+  overflow-x: hidden;
 }
 
-body, #boardNavDesktop, span.boardList, #navtopright, div.boardTitle, .intro span.name {
+div.boardTitle {
+  position: fixed !important;
+  color: #3527fd !important;
+  font-weight: normal !important;
+  font-family: "OCR-B" !important;
+  right: -6px !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important;
+  font-size: 20px !important;
+}
+
+body, #boardNavDesktop, span.boardList, #navtopright, .intro span.name, #togglePostFormLink > a, #boardNavDesktop > span > a, #navtopright > a {
   color: black !important;
 } .burichan_new .backlink a, .yotsuba_b_new .backlink a {
   color: #b4bec8 !important;
@@ -61,7 +72,11 @@ hr {
   border-top: 1px dotted black !important;
   height: 0;
 }
-
+hr.abovePostForm, hr.aboveMidAd {
+  border-top: 1px solid #0000 !important;
+} hr.abovePostForm {
+  margin-bottom: -2px !important;
+}
 
 /* etc */
 
@@ -69,18 +84,42 @@ hr {
   background: linear-gradient(#33144d, #7171ff);
   margin: -5px;
   padding: 76px;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black !important;
 }
 #boardNavDesktop {
-  width: 300px;
+  width: 233px;
   top: 0;
 }
-#bannerCnt {
+#bannerCnt, .middlead, .adl, #blotter, hr:nth-of-type(3), hr:nth-of-type(2), hr#op {
   display: none !important;
 }
-
-
-
-
+#togglePostFormLink {
+  width: 100%;
+  top: 0px !important;
+  position: absolute;
+}
+#search-box {
+  background: #333333;
+} #search-box:focus {
+  border: 1px solid #6867ec !important;
+}
+#togglePostFormLink {
+  font-family: "IBM Plex Sans Condensed";
+  font-weight: 100;
+}
+input:nth-of-type(1) {
+  position: relative;
+  top: 2px;
+}
+#navtopright {
+  left: 0px;
+  position: absolute;
+  margin-top: 21px;
+}
+.thread-stats {
+  padding-right: 15px !important;
+}
 
 #threadWatcher{
   position: relative !important;
